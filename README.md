@@ -6,46 +6,7 @@ Construido para la tesis *Análisis de Sesgo en Estimación de Estatura Esquelé
 
 📄 **DOI:** [10.5281/zenodo.18893064](https://doi.org/10.5281/zenodo.18893064)
 
----
 
-## 🚀 Uso en GitHub Pages
-
-### Paso 1 — Subir el archivo
-
-```bash
-git clone https://github.com/TU-USUARIO/osteoestatura
-cd osteoestatura
-# Copia osteoestatura.html aquí
-git add osteoestatura.html README.md
-git commit -m "Add OsteoEstatura app"
-git push
-```
-
-### Paso 2 — Activar GitHub Pages
-
-1. Ve a tu repositorio en GitHub
-2. **Settings → Pages**
-3. En *Source*, selecciona **Deploy from a branch**
-4. Branch: `main` | Folder: `/ (root)`
-5. Haz clic en **Save**
-
-Después de ~2 minutos, la app estará disponible en:
-```
-https://TU-USUARIO.github.io/osteoestatura/osteoestatura.html
-```
-
----
-
-## ✦ Informe Pericial IA
-
-La función de informe pericial llama directamente a la API de Anthropic desde tu navegador.  
-Al hacer clic en **✦ INFORME PERICIAL IA**, la app te pedirá tu API key si aún no la has ingresado.
-
-- La clave se guarda **solo en tu navegador** (localStorage), nunca se envía a ningún servidor externo
-- Obtén una clave en [console.anthropic.com/keys](https://console.anthropic.com/keys)
-- Puedes cambiarla en cualquier momento: borra el ítem `osteo_api_key` de tu localStorage
-
----
 
 ## Módulos
 
